@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+html, body{
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+table#schedules-table{
+    border: 1px solid #000000;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#schedules-table td{
+    border: 1px solid #606060;
+    padding:10px;
+    text-align:center;
+
+}
+
+table#schedules-table tr.days{
+    background-color: #636e72;
+    color: white;
+}
+
+table#schedules-table td.ce{
+    color: #ffffff;
+    background-color: #636e72;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#schedules-table td.cd{
+    background-color: #b2bec3;
+}
+
+table#schedules-table td.cd#lunch{
+    background-color: #dfe6e9;
+    color: #888888;
+}
+
+table#schedules-table caption{
+    color:#000000;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#schedules-table caption span{
+    display: block;
+    float: right;
+    color:#000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
