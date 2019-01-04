@@ -1,6 +1,6 @@
 header{
-  background-image: url(../imagens/bg.png);
-  background-size: 100% 100%;
+  background-image: url(../imagens/lion_4k.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
   margin-bottom: 10px;
@@ -11,7 +11,8 @@ header{
   box-shadow: none;
 }
 
-.brand-logo{
+.brand-logo span{
+    font-size: 15pt;
 }
 
 .titulo{
@@ -33,17 +34,18 @@ header{
 }
 
 .texto-sobre{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .sobre p{
   font-size: 12pt;
   text-indent: 20pt;
   text-align: justify;
+  margin-left: 50px;
 }
 
 .sobre img{
-  animation: animafoto 3s;
+  animation: animafoto 2s;
 }
 
 @keyframes animafoto{
@@ -104,6 +106,7 @@ header{
 .portfolio img{
   max-width: 100%;
   padding: 10px;
+  padding-top: 20px;
 }
 
 .contato{
@@ -133,12 +136,21 @@ header{
 .contato i{
   color: white;
   position: relative;
+  padding: 20px;
 }
 
 .contato span{
   color: white;
   position: relative;
   font-size: 12pt;
+}
+
+.page-footer h5{
+    text-align: center;
+}
+
+.page-footer p{
+    text-align: center;
 }
 
 @media screen and (min-width: 960px){
@@ -149,6 +161,10 @@ header{
   .brand-logo{
     margin-top: 20px;
     margin-left: 20px;
+  }
+
+  .brand-logo span{
+    font-size: 30pt;
   }
 
   .desktop{
@@ -189,7 +205,7 @@ header{
 
   .texto-sobre{
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .servicos img{
