@@ -145,6 +145,12 @@ header{
   font-size: 12pt;
 }
 
+.contato a{
+  color: white;
+  position: relative;
+  font-size: 12pt;
+}
+
 .page-footer h5{
     text-align: center;
 }
