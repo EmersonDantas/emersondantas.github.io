@@ -1,46 +1,184 @@
 <!DOCTYPE html>
-<html>
-<head>
-  
-  <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <html lang="pt-br">
+    <head>
+      <meta charset="utf-8"/>
+      <title>Emerson Dantas</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="_css/style.css">
-    
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-</head>
+    <body>
+      <!-- Menu de navegação -->
+      <header>
+        <nav id="menu" class="nav_menu">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Dantas's Software</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down desktop">
+              <li><a class="scroll" href="#">HOME</a></li>
+              <li><a class="scroll" href="#sobre">SOBRE</a></li>
+              <li><a class="scroll" href="#servicos">SERVIÇOS</a></li>
+              <li><a class="scroll" href="#portfolio">PORTFÓLIO</a></li>
+              <li><a class="scroll" href="#contato">CONTATO</a></li>
+            </ul>
+          </div>
 
-<body>
-    
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper navbar">
-               <ul id="nav-mobile">
-                   <li><a href="">Inicio</a></li>
-                   <li><a href="">Sobre</a></li>
-                   <li> <a href="">Portifólio</a></li>
-                   <li><a href="">Contato</a></li>
-               </ul> 
-            </div>
+          <ul class="sidenav" id="mobile-demo">
+              <li><a class="scroll" href="#">HOME</a></li>
+              <li><a class="scroll" href="#sobre">SOBRE</a></li>
+              <li><a class="scroll" href="#servicos">SERVIÇOS</a></li>
+              <li><a class="scroll" href="#portfolio">PORTFÓLIO</a></li>
+              <li><a class="scroll" href="#contato">CONTATO</a></li>
+          </ul> 
         </nav>
-    </div>
-    
-    <div class="inicio">
-        <div class="center white-text" id="conteudoInicio">
-            <h3>Olá, seja bem vindo!</h3>
-            <p>Sou Emerson Dantas, estudante de Sistemas de Informação.</p>
+        <div class="col s12 m12 titulo center">
+          <h1>Digitalize-se</h1>
         </div>
-    </div>
-    
-    <div class="sobre">
-       <p>Sobre</p>
-    </div>
-</body>
-</html>
-        
+      </header>
+
+      <div class="fixed-action-btn horizontal">
+          <a href="#menu" class="scroll btn-floating btn-large red">
+            <i class="large material-icons">arrow_upward</i>
+          </a>
+      </div>    
+
+      <!-- Sessão Sobre -->
+      <section id="sobre" class="col s12 m12 sobre center">
+        <div class="row">
+          <h3>Sobre</h3>
+          
+          <div class="col s10 m6 texto-sobre">
+            <p>
+                Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.Profissional movido pela paixão e busca constante dos melhores resultados.
+            </p>
+          </div>
+
+          <div class="col s12 m6 center">
+              <img src="imagens/me.png"
+          </div>
+
+        </div>
+      </section>
+      <!-- Sessão de serviços -->
+      <section id="servicos" class="col s12 m12 servicos center">
+        <h3>Serviços</h3>
+        <div class="row">
+
+          <div class="col s12 m3">
+            <img src="imagens/servico/servico_default.png">
+            <span>Serviço 1</span>
+            <p>
+              Descrição do serviço 1
+            </p>
+          </div>
+
+          <div class="col s12 m3">
+            <img src="imagens/servico/servico_default.png">
+            <span>Serviço 2</span>
+            <p>
+              Descrição do serviço 2
+            </p>
+          </div>
+
+          <div class="col s12 m3">
+            <img src="imagens/servico/servico_default.png">
+            <span>Serviço 3</span>
+            <p>
+              Descrição do serviço 3
+            </p>
+          </div>
+
+          <div class="col s12 m3">
+            <img src="imagens/servico/servico_default.png">
+            <span>Serviço 4</span>
+            <p>
+              Descrição do serviço 4
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Sessão Portfólio -->
+      <section id="portfolio" class="col s12 m12 portfolio center">
+        <h3>Portifólio</h3>
+        <div class="row">
+            <div class="col s12 m4">
+              <img src="imagens/portfolio/port_default.png">
+            </div>
+            
+            <div class="col s12 m4">
+                <img src="imagens/portfolio/port_default.png">
+            </div>
+
+            <div class="col s12 m4">
+                <img src="imagens/portfolio/port_default.png">
+            </div>
+        </div>
+      </section>
+      <!-- Sessão contato-->
+      <section id="contato" class="col s12 m12 contato center">
+        <h3>Contato</h3>
+        <div class="row">
+          <div class="col s12 m4">
+            <i class="large material-icons">call</i><br/>
+            <span>Telefone</span>
+          </div>
+
+          <div class="col s12 m4">
+            <i class="large material-icons">mail</i><br/>
+            <span>emerson.ruan@dce.ufpb.br</span>
+          </div>
+
+          <div class="col s12 m4">
+            <i class="large material-icons">person_add</i><br/>
+            <span>facebook.com/emerson.dantass</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rodapé -->
+
+      <footer class="page-footer grey darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col s6 m12 center">
+              <h5 class="white-text">Não perca tempo, #digitalize-se</h5>
+              <p class="grey-text text-lighten-4">Você precisa de um site, e nós cuidamos disso para você!</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright center">
+          <div class="container">
+          © 2018 Copyright Emerson Dantas
+          </div>
+        </div>
+      </footer>
+
+      <!-- Importando JQuery antes de materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+        //with jQuery
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
+        });
+      </script>
+
+      <script>
+        jQuery(document).ready(function($) { 
+            $(".scroll").click(function(event){        
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+          });
+        });
+      </script>
+    </body>
+  </html>
