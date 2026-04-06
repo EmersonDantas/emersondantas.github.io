@@ -116,7 +116,7 @@ title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
 contact = doc.add_paragraph()
 contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
-contact.add_run("Engenheiro de Software Sênior").bold = True
+contact.add_run("Engenheiro de Software").bold = True
 contact.add_run("\n")
 contact.add_run("João Pessoa, PB  |  (83) 9 8685-3405  |  me@emersondantas.eti.br")
 contact.add_run("\n")
@@ -268,7 +268,7 @@ add_separator()
 doc.add_heading("Projetos", level=2)
 
 add_project(
-    "Aurum.rocks", "Criador e Mantenedor", "Projeto Pessoal - Em andamento",
+    "Aurum.rocks", "Criador e Mantenedor", "Projeto Pessoal",
     "Gestor de finanças pessoais focado na visão a médio e longo prazo e no controle de gastos. Oferece timeline de transações com filtros, resumo financeiro, balanço diário, gestão de reservas, alertas de saldos negativos e gráficos de relatório mensal.",
     items=[
         "Frontend em React com Next.js e design Neo Brutalism",
@@ -399,16 +399,16 @@ doc.add_heading("Referências", level=2)
 ref1 = doc.add_paragraph()
 ref1.add_run("Patrick Onofre").bold = True
 ref1.add_run("\nEngenheiro de Software Especialista - Strada")
-ref1.add_run("\nonofre.patrick@gmail.com  |  (83) 9 8150-0059")
+ref1.add_run("\nonofre.patrick@gmail.com  |  linkedin.com/in/patrick-onofre-2b658a34")
 
 ref2 = doc.add_paragraph()
 ref2.add_run("Rodrigo Rebouças").bold = True
 ref2.add_run("\nProfessor, PhD - Universidade Federal da Paraíba (UFPB)")
-ref2.add_run("\nrodrigor@dcx.ufpb.br  |  (83) 9 8780-1552")
+ref2.add_run("\nrodrigor@dcx.ufpb.br  |  linkedin.com/in/rodrigoreboucas")
 
 # ==========================================
 # SALVAR
 # ==========================================
-output_path = "download/Curriculo_Emerson_Ruan_Dantas_Silva.docx"
+output_path = "download/curriculo_emerson_ruan_dantas_silva.docx"
 doc.save(output_path)
 print(f"DOCX gerado com sucesso: {output_path}")
